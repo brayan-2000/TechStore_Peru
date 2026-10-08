@@ -1,0 +1,14 @@
+{
+  "name": "techstore-peru-parcial",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "api": "node server/index.js",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "preview": "vite preview"
+  },
+  "dependencies": { "express": "^4.21.2" },
+  "devDependencies": { "vite": "^6.2.6" }
+}
